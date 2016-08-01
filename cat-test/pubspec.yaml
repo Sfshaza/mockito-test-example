@@ -1,0 +1,5 @@
+name: cat_test
+version: 0.0.1
+dependencies:
+  test: any
+  mockito: any
