@@ -10,7 +10,7 @@ class MockCatCafe extends Mock implements CatCafe {}
 class MockCat extends Mock implements Cat {}
 
 main() {
-  test('cat cafe', () {
+  test('Cat.getFood() returns food from the cat cafe', () {
     var cafe = new MockCatCafe();
     var cat = new Cat(cafe);
 
@@ -18,11 +18,5 @@ main() {
     expect(cat.getFood(), 'kibble');
     cat.getFood();
     verify(cafe.serveMeal()).called(2);
-  });
-
-  test('cat diet', () {
-    var cat = new MockCat();
-
-    //expect(cat.getFood(), isTrue);
   });
 }

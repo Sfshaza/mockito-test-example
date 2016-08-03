@@ -1,8 +1,8 @@
 import 'cat_cafe.dart';
 
 class Cat {
-  final service;
-  Cat(CatCafe this.service);
+  final CatCafe service;
+  Cat(this.service);
 
   String getFood() {
     return service.serveMeal();

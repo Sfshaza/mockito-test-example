@@ -6,13 +6,13 @@ packages:
       name: analyzer
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.27.2"
+    version: "0.27.4"
   args:
     description:
       name: args
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.13.4+2"
+    version: "0.13.5"
   async:
     description:
       name: async
@@ -72,7 +72,13 @@ packages:
       name: html
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.12.2+2"
+    version: "0.13.0"
+  http:
+    description:
+      name: http
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.11.3+9"
   http_multi_server:
     description:
       name: http_multi_server
@@ -85,6 +91,12 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "3.0.2"
+  isolate:
+    description:
+      name: isolate
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.2.2"
   logging:
     description:
       name: logging
@@ -114,7 +126,13 @@ packages:
       name: package_config
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.1.5"
+    version: "1.0.0"
+  package_resolver:
+    description:
+      name: package_resolver
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0"
   path:
     description:
       name: path
@@ -126,7 +144,7 @@ packages:
       name: plugin
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.1.0"
+    version: "0.2.0"
   pool:
     description:
       name: pool
@@ -145,6 +163,12 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.6.5+2"
+  shelf_packages_handler:
+    description:
+      name: shelf_packages_handler
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0"
   shelf_static:
     description:
       name: shelf_static
@@ -162,7 +186,7 @@ packages:
       name: source_map_stack_trace
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.4"
+    version: "1.1.2"
   source_maps:
     description:
       name: source_maps
@@ -198,7 +222,7 @@ packages:
       name: test
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.12.15+1"
+    version: "0.12.15+2"
   typed_data:
     description:
       name: typed_data
@@ -229,4 +253,4 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.10"
-sdk: ">=1.17.0-dev.6.2 <1.20.0"
+sdk: ">=1.17.0-dev.6.2 <2.0.0"
