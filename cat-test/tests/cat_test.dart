@@ -7,8 +7,6 @@ import 'package:cat_test/cat.dart';
 @proxy
 class MockCatCafe extends Mock implements CatCafe {}
 
-class MockCat extends Mock implements Cat {}
-
 main() {
   test('Cat.getFood() returns food from the cat cafe', () {
     var cafe = new MockCatCafe();
